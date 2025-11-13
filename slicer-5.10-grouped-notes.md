@@ -410,3 +410,94 @@
 # dependabot
 
 
+
+## Extensions
+
+### Extensions added
+* SlicerHeadCTDeid
+  - URL: https://github.com/payabvashlab/SlicerHeadCTDeid
+  - Category: Utilities
+  - Tier: 1
+* ClassAnnotation
+  - URL: https://github.com/lorenaromeo/SlicerClassAnnotation.git
+  - Category: Utilities
+  - Tier: 3
+* SlicerTelemetry
+* DenseCorrespondenceAnalysis
+  - URL: https://github.com/SlicerMorph/SlicerDenseCorrespondenceAnalysis.git
+  - Category: SlicerMorph
+  - Tier: 3
+* ModalityConverter
+  - URL: https://github.com/ciroraggio/SlicerModalityConverter.git
+  - Category: Image Synthesis
+  - Tier: 3
+* CADSWholeBodyCTSeg
+  - URL: https://github.com/murong-xu/SlicerCADSWholeBodyCTSeg
+  - Category: Segmentation
+  - Tier: 1
+* SlicerOpenLIFU
+  - URL: https://github.com/OpenwaterHealth/SlicerOpenLIFU.git
+  - Category: Utilities
+  - Tier: 1
+* LayerDisplayableManager
+  - URL: https://github.com/KitwareMedical/SlicerLayerDisplayableManager
+  - Category: Developer Tools
+  - Tier: 5
+* DBSCoalignment
+  - URL: https://github.com/IVarha/SlicerDBSCoalignment.git
+  - Category: Netstim
+  - Tier: 1
+* UpperAirwaySegmentator
+  - URL: https://github.com/capenaka/SlicerUpperAirwaySegmentator
+  - Category: Segmentation
+  - Tier: 1
+* IGSpineDeformity
+  - URL: https://github.com/SenonETS/SlicerIGSpineDeformity.git
+  - Category: IGT
+* SPECTRecon
+  - URL: https://github.com/PyTomography/SlicerSPECTRecon.git
+  - Category: Tomographic Reconstruction
+* ASLtoolkit
+  - URL: https://github.com/LOAMRI/Slicer-ASLtoolkit.git
+  - Category: Neuroimaging
+* AnatomyCarve
+  - URL: https://github.com/andrey-titov/SlicerAnatomyCarve.git
+  - Category: Rendering
+  - Tier: 1
+* SlicerANTsPy
+  - URL: https://github.com/SlicerMorph/SlicerANTsPy.git
+  - Category: Registration
+  - Tier: 3
+* SlicerMultiverSeg
+  - URL: https://github.com/dalcalab/SlicerMultiverSeg
+  - Category: Segmentation
+  - Tier: 3
+* NeuroStrip
+  - URL: https://github.com/dyollb/SlicerNeuroStrip
+  - Category: Segmentation
+  - Tier: 1
+* Trame
+* RadioembolizationDosimetry
+  - URL: https://github.com/4burakfe/SlicerRadioembolizationDosimetry
+  - Category: Nuclear Medicine
+  - Tier: 1
+* SlicerOrbitSurgerySim
+  - URL: https://github.com/chz31/SlicerOrbitSurgerySim
+  - Category: Planning
+  - Tier: 3
+* nnInteractiveSlicer
+* EVARSim
+  - URL: https://github.com/rwic/SlicerEVARSim
+  - Category: Modeling
+  - Tier: 1
+
+### Extensions renamed
+* SlicerNNInteractive -> nnInteractive
+* nnInteractive -> NNInteractive
+* SlicerTelemetry -> Telemetry
+* SlicerDTIALPS -> DTI-ALPS
+* Trame -> SlicerTrame
+* nnInteractiveSlicer -> SlicerNNInteractive
+
+### Extensions removed
+* SlicerWMA
