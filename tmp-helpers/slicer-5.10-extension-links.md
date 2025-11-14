@@ -24,6 +24,11 @@ This document provides links to the GitHub repositories, ExtensionsIndex commits
 - **First Added to ExtensionsIndex**: https://github.com/Slicer/ExtensionsIndex/commit/5813c9ecf940d8ba32c135169c84b18cb80ee8ce
 - **CDash Dashboard**: https://slicer.cdash.org/buildSummary.php?buildid=3992583
 
+### NNInteractive
+- **GitHub Repository**: https://github.com/coendevente/SlicerNNInteractive
+- **First Added to ExtensionsIndex**: https://github.com/Slicer/ExtensionsIndex/commit/e9ed012052b0aa978b463054b75deb5aaca46fbd
+- **CDash Dashboard**: https://slicer.cdash.org/buildSummary.php?buildid=3992580
+
 ## Image Registration and Analysis
 
 ### SlicerANTsPy
@@ -117,12 +122,12 @@ This document provides links to the GitHub repositories, ExtensionsIndex commits
 
 ## Summary
 
-**Total Extensions**: 19
+**Total Extensions**: 20
 
-**Extensions with CDash builds found**: 11/19
-- NeuroStrip, DenseCorrespondenceAnalysis, ModalityConverter, SlicerOrbitSurgerySim, EVARSim, DBSCoalignment, ClassAnnotation, IGSpineDeformity, ASLtoolkit, AnatomyCarve, LayerDisplayableManager
+**Extensions with CDash builds found**: 12/20
+- NeuroStrip, NNInteractive, DenseCorrespondenceAnalysis, ModalityConverter, SlicerOrbitSurgerySim, EVARSim, DBSCoalignment, ClassAnnotation, IGSpineDeformity, ASLtoolkit, AnatomyCarve, LayerDisplayableManager
 
-**Extensions without CDash builds in current data**: 8/19
+**Extensions without CDash builds in current data**: 8/20
 - CADSWholeBodyCTSeg, UpperAirwaySegmentator, SlicerMultiverSeg, SlicerANTsPy, SlicerHeadCTDeid, SPECTRecon, RadioembolizationDosimetry, SlicerOpenLIFU
 
 **Notes**:

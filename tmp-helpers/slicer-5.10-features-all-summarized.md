@@ -90,6 +90,7 @@ LayoutNode and SequenceBrowserNode can now be properly recorded in Sequences thr
 - **UpperAirwaySegmentator**: nnUNet-based automatic upper airway segmentation on CT/CBCT for dental imaging
 - **SlicerMultiverSeg**: Interactive segmentation through in-context learning with few annotated examples
 - **NeuroStrip**: CNN-based brain extraction (skull stripping) from MRI scans
+- **NNInteractive**: Interactive deep learning segmentation using various prompt types (points, scribbles, bounding boxes, lasso tools) with server-based GPU processing
 
 ### Image Registration and Analysis
 - **SlicerANTsPy**: ANTsPy integration for pairwise/groupwise registration, template creation, and morphometric analysis
