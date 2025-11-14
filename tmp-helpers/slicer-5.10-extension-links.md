@@ -7,8 +7,8 @@ This document provides links to the GitHub repositories, ExtensionsIndex commits
 ### CADSWholeBodyCTSeg
 - **GitHub Repository**: https://github.com/murong-xu/SlicerCADSWholeBodyCTSeg
 - **First Added to ExtensionsIndex**: https://github.com/Slicer/ExtensionsIndex/commit/a7cf8e51fbdbee396739022c4ea73d5c0bf1493e
-- **CDash Dashboard**: *Not found in current builds (extension may be too new or not yet built)*
-- **Build Status**: Unknown
+- **CDash Dashboard**: https://slicer.cdash.org/buildSummary.php?buildid=3992898
+- **Build Status**: Success
 
 ### UpperAirwaySegmentator
 - **GitHub Repository**: https://github.com/capenaka/SlicerUpperAirwaySegmentator
@@ -19,8 +19,8 @@ This document provides links to the GitHub repositories, ExtensionsIndex commits
 ### SlicerMultiverSeg
 - **GitHub Repository**: https://github.com/dalcalab/SlicerMultiverSeg
 - **First Added to ExtensionsIndex**: https://github.com/Slicer/ExtensionsIndex/commit/8cd73d2d84352325eb9c9cf98542d4edc79a7c55
-- **CDash Dashboard**: *Not found in current builds (extension may be too new or not yet built)*
-- **Build Status**: Unknown
+- **CDash Dashboard**: https://slicer.cdash.org/buildSummary.php?buildid=3992758
+- **Build Status**: Success
 
 ### NeuroStrip
 - **GitHub Repository**: https://github.com/dyollb/SlicerNeuroStrip
@@ -39,8 +39,8 @@ This document provides links to the GitHub repositories, ExtensionsIndex commits
 ### SlicerANTsPy
 - **GitHub Repository**: https://github.com/SlicerMorph/SlicerANTsPy
 - **First Added to ExtensionsIndex**: https://github.com/Slicer/ExtensionsIndex/commit/b63c04f2ee321c6047e42adf05cada3a207ffd4d
-- **CDash Dashboard**: *Not found in current builds (may be in different build group)*
-- **Build Status**: Unknown
+- **CDash Dashboard**: https://slicer.cdash.org/buildSummary.php?buildid=3992718
+- **Build Status**: Success
 
 ### DenseCorrespondenceAnalysis
 - **GitHub Repository**: https://github.com/SlicerMorph/SlicerDenseCorrespondenceAnalysis
@@ -146,15 +146,15 @@ This document provides links to the GitHub repositories, ExtensionsIndex commits
 
 ### Build Status Breakdown
 
-**Successfully Built (10/20):**
-- NNInteractive, DenseCorrespondenceAnalysis, ModalityConverter, SlicerOrbitSurgerySim, EVARSim, ClassAnnotation, IGSpineDeformity, ASLtoolkit, AnatomyCarve, LayerDisplayableManager
+**Successfully Built (13/20):**
+- CADSWholeBodyCTSeg, SlicerMultiverSeg, NNInteractive, SlicerANTsPy, DenseCorrespondenceAnalysis, ModalityConverter, SlicerOrbitSurgerySim, EVARSim, ClassAnnotation, IGSpineDeformity, ASLtoolkit, AnatomyCarve, LayerDisplayableManager
 
 **Failed Builds (2/20):**
 - NeuroStrip (configure error: missing CMakeLists.txt)
 - DBSCoalignment (configure error: missing Lib/visualisation.py)
 
-**Unknown Build Status (8/20):**
-- CADSWholeBodyCTSeg, UpperAirwaySegmentator, SlicerMultiverSeg, SlicerANTsPy, SlicerHeadCTDeid, SPECTRecon, RadioembolizationDosimetry, SlicerOpenLIFU
+**Unknown Build Status (5/20):**
+- UpperAirwaySegmentator, SlicerHeadCTDeid, SPECTRecon, RadioembolizationDosimetry, SlicerOpenLIFU
 
 **Notes**:
 - Extensions with unknown status do not have CDash builds in the Extensions-5.10-Nightly build group - they may be too new, in a different build group, or have build configuration issues
