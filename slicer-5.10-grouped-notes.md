@@ -1,32 +1,55 @@
 #------------------------------------------------------------------------------
 # Improvements
 
-* Define a window icon for all windows  ([PR-8186](https://github.com/Slicer/Slicer/pull/8186))
-* Support specifying extension contributors as CMake list ([PR-8175](https://github.com/Slicer/Slicer/pull/8175))
-* Update BRAINSTools from 2024-05-31 to 2024-11-09 ([PR-8191](https://github.com/Slicer/Slicer/pull/8191))
-* Make NSIS Windows installer prettier with application branding  ([PR-8192](https://github.com/Slicer/Slicer/pull/8192))
-* Centralize retrieval of Markups Moving attributes in display node ([PR-8173](https://github.com/Slicer/Slicer/pull/8173))
-* Add `ctkColorPickerButton` support with `QColor` in `parameterNodeWrapper` ([PR-8195](https://github.com/Slicer/Slicer/pull/8195))
-* Generalize internal `qt_root_dir` path ([PR-8219](https://github.com/Slicer/Slicer/pull/8219))
-* Update vtkAddon ([PR-8227](https://github.com/Slicer/Slicer/pull/8227))
-* Warn when setting volume node with invalid vtkImageData ([PR-8178](https://github.com/Slicer/Slicer/pull/8178))
-* Add support for additional NumPy types in `slicer.util.updateTableFromArray` ([PR-8180](https://github.com/Slicer/Slicer/pull/8180))
-* Mark SlicerLogic UpdateBlendLayers() & UpdateFractions() helpers as static ([PR-8234](https://github.com/Slicer/Slicer/pull/8234))
-* Update vtkAddon anticipating update to VTK >= 9.4 ([PR-8239](https://github.com/Slicer/Slicer/pull/8239))
-* Consolidate SliceLogic calls to SetInterpolateTexture ([PR-8232](https://github.com/Slicer/Slicer/pull/8232))
-* Remove support for building against VTK <= 9.1 ([PR-8244](https://github.com/Slicer/Slicer/pull/8244))
+## Visible things
+
+### Actual feature
 * Add segment visibility toggle option ([PR-8247](https://github.com/Slicer/Slicer/pull/8247))
-* Generalize SliceLogic API introducing "Nth Layer" functions ([PR-8277](https://github.com/Slicer/Slicer/pull/8277))
 * Make maximum file length configurable ([PR-8245](https://github.com/Slicer/Slicer/pull/8245))
+* Select the first suitable node by default in tree views ([PR-8306](https://github.com/Slicer/Slicer/pull/8306))
+
+
+### Groundwork for future actual feature
+* Generalize SliceLogic API introducing "Nth Layer" functions ([PR-8277](https://github.com/Slicer/Slicer/pull/8277))
 * Generalize CompositeNode API introducing "Nth Layer" functions ([PR-8278](https://github.com/Slicer/Slicer/pull/8278))
 * Refactor vtkMRMLSliceLogic::UpdatePipeline to use "Nth Layer" API ([PR-8279](https://github.com/Slicer/Slicer/pull/8279))
 * Generalize CompositeNode "opacity" API introducing "Nth Layer" functions ([PR-8280](https://github.com/Slicer/Slicer/pull/8280))
-* Add convenience methods to get/set terminology in segments ([PR-8296](https://github.com/Slicer/Slicer/pull/8296))
-* Reduce unnecessary error reporting in segmentation SH ([PR-8299](https://github.com/Slicer/Slicer/pull/8299))
-* Select the first suitable node by default in tree views ([PR-8306](https://github.com/Slicer/Slicer/pull/8306))
+
+
+### Visual prettiness
+* Define a window icon for all windows  ([PR-8186](https://github.com/Slicer/Slicer/pull/8186))
+* Make NSIS Windows installer prettier with application branding  ([PR-8192](https://github.com/Slicer/Slicer/pull/8192))
+
+## Updates
+* Update BRAINSTools from 2024-05-31 to 2024-11-09 ([PR-8191](https://github.com/Slicer/Slicer/pull/8191))
+* Update vtkAddon ([PR-8227](https://github.com/Slicer/Slicer/pull/8227))
+* Update vtkAddon anticipating update to VTK >= 9.4 ([PR-8239](https://github.com/Slicer/Slicer/pull/8239))
+* Remove support for building against VTK <= 9.1 ([PR-8244](https://github.com/Slicer/Slicer/pull/8244))
 * Update VTK (vtkMultiVolume bounds computation fix) ([PR-8309](https://github.com/Slicer/Slicer/pull/8309))
 * Remove additional code handling VTK support <= 9.1 ([PR-8310](https://github.com/Slicer/Slicer/pull/8310))
+
+## Extension config
+* Support specifying extension contributors as CMake list ([PR-8175](https://github.com/Slicer/Slicer/pull/8175))
+
+## Internal code improvements, API improvements, logging improvements
+* Centralize retrieval of Markups Moving attributes in display node ([PR-8173](https://github.com/Slicer/Slicer/pull/8173))
+* Warn when setting volume node with invalid vtkImageData ([PR-8178](https://github.com/Slicer/Slicer/pull/8178))
+* Add support for additional NumPy types in `slicer.util.updateTableFromArray` ([PR-8180](https://github.com/Slicer/Slicer/pull/8180))
+* Mark SlicerLogic UpdateBlendLayers() & UpdateFractions() helpers as static ([PR-8234](https://github.com/Slicer/Slicer/pull/8234))
+* Consolidate SliceLogic calls to SetInterpolateTexture ([PR-8232](https://github.com/Slicer/Slicer/pull/8232))
+* Add convenience methods to get/set terminology in segments ([PR-8296](https://github.com/Slicer/Slicer/pull/8296))
+* Reduce unnecessary error reporting in segmentation SH ([PR-8299](https://github.com/Slicer/Slicer/pull/8299))
+
+### Parameter node improvements
+* Add `ctkColorPickerButton` support with `QColor` in `parameterNodeWrapper` ([PR-8195](https://github.com/Slicer/Slicer/pull/8195))
+
+## Probably should've been COMP
+* Generalize internal `qt_root_dir` path ([PR-8219](https://github.com/Slicer/Slicer/pull/8219))
+
+## Probably should've been FIX
 * Move singleton declaration from vtkMRMLLayoutNode constructor ([PR-8317](https://github.com/Slicer/Slicer/pull/8317))
+
+## Improvements that haven't been orgnized yet
 * Add CopyContent methods to vtkMRMLLayoutNode and vtkMRMLSequenceBrowserNode ([PR-8318](https://github.com/Slicer/Slicer/pull/8318))
 * Update Scene Views to use Sequences ([PR-8303](https://github.com/Slicer/Slicer/pull/8303))
 * Add invert colors option to Volumes module ([PR-8341](https://github.com/Slicer/Slicer/pull/8341))
