@@ -1052,3 +1052,25 @@ Reduces threshold for using response files with AUTOMOC from 32000 to 16000 char
 
 ## [PR-8835](https://github.com/Slicer/Slicer/pull/8835): Require Qt XmlPatterns only when QtTesting is enabled
 Makes Qt XmlPatterns dependency conditional on QtTesting being enabled, removing an unnecessary global dependency and preparing for Qt6 transition where XmlPatterns is no longer available.
+# Slicer 5.10 PR Summaries - Chunk 35
+
+## [PR-8335](https://github.com/Slicer/Slicer/pull/8335): DOC: Moved 2 modules to match application module selector
+Moves "Resample DTI Volume" and "Resample Scalar/Vector/DWI Volume" modules from Converters to Diffusion > Utilities category in documentation to match their actual location in the Slicer GUI.
+
+## [PR-8510](https://github.com/Slicer/Slicer/pull/8510): COMP: Fix unused variable warning in qMRMLSortFilterColorProxyModel
+Fixes compiler warnings for unused variables and parameters in the qMRMLSortFilterColorProxyModel component.
+
+## [PR-8545](https://github.com/Slicer/Slicer/pull/8545): ENH: Increase git hook maximum line length from 160 to 180
+Increases git pre-commit hook maximum line length from 160 to 180 characters to align with planned clang-format ColumnLimit setting and support formatting automation while maintaining code readability.
+
+## [PR-8581](https://github.com/Slicer/Slicer/pull/8581): BUG: Fix incorrect QDir assignment introduced during refactoring
+Fixes incorrect QDir assignment bug from previous refactoring that broke extension extraction and temporary directory setup by replacing incorrect dirName() calls with path() calls.
+
+## [PR-8709](https://github.com/Slicer/Slicer/pull/8709): BUG: Fix Add/Subtract compositing clobbering background input
+Fixes Add/Subtract compositing modes which were only showing a single layer fading over black instead of properly blending multiple layers by offsetting foreground connections to preserve the background input port.
+
+## [PR-8731](https://github.com/Slicer/Slicer/pull/8731): ENH: Add customizable application display name property
+Introduces a new APPLICATION_DISPLAY_NAME property that allows spaces for user-facing contexts (window titles, installers, shortcuts) while keeping the original APPLICATION_NAME for programmatic use, enabling proper "3D Slicer" branding in installers and Start Menu search.
+
+## [PR-8763](https://github.com/Slicer/Slicer/pull/8763): ENH: Expose segment editor effect cursor functions
+Exposes segment editor cursor functions (createCursor and setEffectCursor) to the public API, allowing extension developers to programmatically manage and restore effect-specific cursors when they conflict with markup interactions.
