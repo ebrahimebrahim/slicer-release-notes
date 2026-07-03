@@ -1,0 +1,167 @@
+{
+  "AAL3BrainLabeling": {
+    "description": "AAL3 atlas-based morphometric analysis pipeline for 3D Slicer using Elastix.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "AAL3BrainLabeling.json"
+  },
+  "AdaptiveBrush": {
+    "description": "Adaptive brush segment editor effect that segments based on image intensity similarity, stopping at edges and boundaries.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "AdaptiveBrush.json"
+  },
+  "CrossSegmentationExplorer": {
+    "description": "Tools for the visual inspection and comparison of multiple segmentations on the same volume.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "CrossSegmentationExplorer.json"
+  },
+  "DelineateLiverRT": {
+    "description": "Clinical decision-support extension for nuclear medicine supporting liver tumor treatment workflows with SPECT/CT and PET/CT imaging. Provides three integrated modules: automatic AI-based liver and tumor segmentation (SegModule), multimodal image registration (RecModule), and patient-specific dosimetry computation using LDM/VDK physical models (DosiModule).",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "DelineateLiverRT.json"
+  },
+  "DRAISegmentation": {
+    "description": "AI-powered segmentation for Spine/Pelvis (CT) and Aorta\u2013Iliac\u2013Femoral Arteries (CTA). For Spine/Pelvis CT, we generate individual segmentation masks for each vertebra, as well as the pelvis and sacrum; for CTA, we segment all traceable arteries below the aortic arch. Moreover, we can separate metal. Upload CT volumes to the DRAI cloud and receive high-quality, multi-label masks directly in 3D Slicer within minutes. Built to handle complex cases\u2014including bypass grafts, occuled arteries, extreme scoliosis, metal implants, and challenging pathology\u2014with reliable accuracy. All data is securely processed and deleted immediately after inference. Questions? Contact support@deepreasoningai.com.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "DRAISegmentation.json"
+  },
+  "FootSegmentation": {
+    "description": "AI-powered automatic 3D foot segmentation using deep learning",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "FootSegmentation.json"
+  },
+  "ImpactReg": {
+    "description": "Slicer IMPACT-Reg is a 3D Slicer module dedicated to multimodal medical image registration. It integrates the IMPACT deep semantic similarity metric within the Elastix registration engine and exposes predefined registration presets through a simple graphical interface.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "ImpactReg.json"
+  },
+  "ImpactSynth": {
+    "description": "Deep learning-based synthetic CT generation, sCT segmentation, and quality assurance tools powered by KonfAI IMPACT-Synth models.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "ImpactSynth.json"
+  },
+  "IVIMFitSlicer": {
+    "description": "Advanced IVIM Analysis tool with ROI-based fitting",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "IVIMFitSlicer.json"
+  },
+  "KonfAI": {
+    "description": "An extension enabling fast and configurable deep learning inference in 3D Slicer using KonfAI models from the Hugging Face repository.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "KonfAI.json"
+  },
+  "MouseMaster": {
+    "description": "Advanced mouse button customization for multi-button mice with preset management and context-sensitive bindings.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "MouseMaster.json"
+  },
+  "MuscleMap": {
+    "description": "A 3D Slicer extension to the MuscleMap whole-body segmentation model.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "MuscleMap.json"
+  },
+  "OpenMAPT1Auto": {
+    "description": "Automated brain MRI parcellation into 280 anatomical regions using OpenMAP-T1 deep learning model. NON-COMMERCIAL USE ONLY.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "OpenMAPT1Auto.json"
+  },
+  "PySERA": {
+    "description": "PySERA radiomics extraction library integrated into 3D Slicer.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "PySERA.json"
+  },
+  "RadReirradiation": {
+    "description": "A clinical tool for Reirradiation analysis, EQD2 dose calculation, and integrated DVH metrics.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "RadReirradiation.json"
+  },
+  "ScapularMorphology": {
+    "description": "Scapular Morphology for glenoid segmentation and landmarks location.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "ScapularMorphology.json"
+  },
+  "SEEGContactDetector": {
+    "description": "SEEG Contact Detector is a extension for automatic localization of stereoelectroencephalography electrode contact centers from post-implantation CT data. The module uses a model-based approach that respects electrode geometry and accounts for bending, twisting, and partial contact visibility. It supports optional MRI-based brain masking, manual correction tools, and interactive visualization for efficient clinical review.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "SEEGContactDetector.json"
+  },
+  "SegTemplateEditor": {
+    "description": "Extension for creating and managing reusable segmentation templates with predefined segment names and colors",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "SegTemplateEditor.json"
+  },
+  "SimVascular": {
+    "description": "SimVascular extensions developed by Marsden lab members and associates for 3D Slicer.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "SimVascular.json"
+  },
+  "TimelapsedHRpQCTSlicer": {
+    "description": "HR-pQCT toolbox for 3D Slicer with longitudinal timelapsed analysis, motion scoring, Scanco AIM I/O, and contouring/segmentation workflow modules.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "TimelapsedHRpQCTSlicer.json"
+  },
+  "volbrain": {
+    "description": "3D Slicer extension for comprehensive brain structure volume calculation and 3D visualization from volBrain segmentation outputs. Supports 108+ cortical regions, tissue classification, lobes, and macrostructures.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "volbrain.json"
+  },
+  "VoxTell": {
+    "description": "VoxTell lets users segment 3D medical scans in 3D Slicer using plain-language prompts (for example, liver or right kidney).",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "VoxTell.json"
+  },
+  "OpenLIFU": {
+    "description": "A 3D Slicer extension for Openwater\u2019s OpenLIFU (Low Intensity Focused Ultrasound) research platform. Licensed under AGPL (a strong copyleft license that may impose restrictions on combined works).",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "OpenLIFU.json"
+  },
+  "AutomatedDentalTools": {
+    "description": "This extension will allow clinicians to perform automatic CBCT scan segmentation as well as automatic lamndmark identification in CBCT and IOS using machine learning tools.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "AutomatedDentalTools.json"
+  },
+  "LanguagePacks": {
+    "description": "Extension for deploying language packs and editing translations.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "LanguagePacks.json"
+  },
+  "MHubRunner": {
+    "description": "MHub Runner is a 3D Slicer plugin that seamlessly integrates Deep Learning models from the Medical Hub repository (MHub) into 3D Slicer.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "MHubRunner.json"
+  },
+  "PETDICOMExtension": {
+    "description": "The PET DICOM Extension provides tools to import PET Standardized Uptake Value images from DICOM into Slicer.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "PETDICOMExtension.json"
+  },
+  "QuantitativeReporting": {
+    "description": "Segmentation-based measurements with DICOM-based import and export of the results.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "QuantitativeReporting.json"
+  },
+  "SlicerDMRI": {
+    "description": "SlicerDMRI provides tools to load diffusion MRI image data, perform tractography, and quantify results.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "SlicerDMRI.json"
+  },
+  "SlicerHeart": {
+    "description": "Modules for cardiac analysis and intervention planning and guidance",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "SlicerHeart.json"
+  },
+  "SlicerMorph": {
+    "description": "This extension enables retrieval, visualization, measurement and annotation of high-resolution specimen data from volumetric scans (CTs and MRs) or 3D surface scans.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "SlicerMorph.json"
+  },
+  "SlicerRT": {
+    "description": "Toolkit for radiation therapy research. Features include DICOM-RT import/export, dose volume histogram, dose accumulation, external beam planning (TPS), structure comparison, isodose line/surface generation, etc.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "SlicerRT.json"
+  },
+  "TutorialMaker": {
+    "description": "The Tutorial Maker is currently in an experimental development phase. It provides a framework for generating 3D Slicer tutorials that can be translated into multiple languages.",
+    "cmake_path": "CMakeLists.txt",
+    "metadata_path": "TutorialMaker.json"
+  }
+}

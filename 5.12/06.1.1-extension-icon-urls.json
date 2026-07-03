@@ -1,0 +1,62 @@
+{
+  "AAL3BrainLabeling": {
+    "icon_url": "https://raw.githubusercontent.com/niyaziacer/SlicerAAL3BrainLabeling/main/Resources/AAL3BrainLabeling.png",
+    "icon_path": "Resources/AAL3BrainLabeling.png"
+  },
+  "AdaptiveBrush": {
+    "icon_url": "https://raw.githubusercontent.com/benzwick/SlicerAdaptiveBrush/main/SegmentEditorAdaptiveBrush/Resources/Icons/SegmentEditorAdaptiveBrush.png",
+    "icon_path": "SegmentEditorAdaptiveBrush/Resources/Icons/SegmentEditorAdaptiveBrush.png"
+  },
+  "CrossSegmentationExplorer": {
+    "icon_url": "https://raw.githubusercontent.com/ImagingDataCommons/SlicerCrossSegmentationExplorer/main/CrossSegmentationExplorer/Resources/Icons/CrossSegmentationExplorer.png",
+    "icon_path": "CrossSegmentationExplorer/Resources/Icons/CrossSegmentationExplorer.png"
+  },
+  "DelineateLiverRT": {
+    "icon_url": "https://gitlab.in2p3.fr/iftim/public-projects/SlicerDelineateLiverRT/-/raw/master/RecModule/Resources/Icons/RecModule.png",
+    "icon_path": "RecModule/Resources/Icons/RecModule.png"
+  },
+  "DRAISegmentation": {
+    "icon_url": "https://raw.githubusercontent.com/DeepReasoningAI/SlicerDRAISegmentation/ff07f81a47c8794c767137e0397d90900e2688a8/DRAISegmentation/Resources/Icons/DRAISegmentation.jpg",
+    "icon_path": "DRAISegmentation/Resources/Icons/DRAISegmentation.jpg"
+  },
+  "FootSegmentation": {
+    "icon_url": "https://raw.githubusercontent.com/cuneytozdemir/SlicerFootSegmentation/main/FootSegmentation/Resources/Icons/FootSegmentation.png",
+    "icon_path": "FootSegmentation/Resources/Icons/FootSegmentation.png"
+  },
+  "IVIMFitSlicer": {
+    "icon_url": "https://raw.githubusercontent.com/Atakanisik/SlicerIVIMFit/main/IVIMFitSlicer/Resources/Icons/IVIMFitSlicer.png",
+    "icon_path": "IVIMFitSlicer/Resources/Icons/IVIMFitSlicer.png"
+  },
+  "MouseMaster": {
+    "icon_url": "https://raw.githubusercontent.com/benzwick/SlicerMouseMaster/main/MouseMaster/Resources/Icons/MouseMaster.png",
+    "icon_path": "MouseMaster/Resources/Icons/MouseMaster.png"
+  },
+  "MuscleMap": {
+    "icon_url": "https://raw.githubusercontent.com/MuscleMap/SlicerMuscleMap/main/WholeBodyMuscleSegmentation/Resources/Icons/MuscleMap.png",
+    "icon_path": "WholeBodyMuscleSegmentation/Resources/Icons/MuscleMap.png"
+  },
+  "OpenMAPT1Auto": {
+    "icon_url": "https://raw.githubusercontent.com/niyaziacer/SlicerOpenMAPT1Auto/main/Resources/Icons/OpenMAPT1Auto.png",
+    "icon_path": "Resources/Icons/OpenMAPT1Auto.png"
+  },
+  "PySERA": {
+    "icon_url": "https://raw.githubusercontent.com/radiuma-com/SlicerPySERA/main/PySERA/Resources/Icons/SlicerPySERA_png_icon.png",
+    "icon_path": "PySERA/Resources/Icons/SlicerPySERA_png_icon.png"
+  },
+  "ScapularMorphology": {
+    "icon_url": "https://raw.githubusercontent.com/liukuan5625/SlicerScapularMorphology/main/ScapularMorphology/Resources/Icons/ScapularMorphology.png",
+    "icon_path": "ScapularMorphology/Resources/Icons/ScapularMorphology.png"
+  },
+  "SegTemplateEditor": {
+    "icon_url": "https://raw.githubusercontent.com/esheo-skia/Slicer-SegTemplateEditor/main/Resources/Icons/SegTemplateEditor.png",
+    "icon_path": "Resources/Icons/SegTemplateEditor.png"
+  },
+  "TimelapsedHRpQCTSlicer": {
+    "icon_url": "https://raw.githubusercontent.com/wallematthias/SlicerTimelapsedHRpQCT/main/TimelapsedHRpQCT/Resources/Icons/TimelapsedHRpQCT.png",
+    "icon_path": "TimelapsedHRpQCT/Resources/Icons/TimelapsedHRpQCT.png"
+  },
+  "volbrain": {
+    "icon_url": "https://raw.githubusercontent.com/niyaziacer/SlicerVolBrain/main/Resources/Icons/SlicerVolBrain.png",
+    "icon_path": "Resources/Icons/SlicerVolBrain.png"
+  }
+}

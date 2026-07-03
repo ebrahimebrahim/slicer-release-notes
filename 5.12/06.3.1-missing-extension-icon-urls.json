@@ -1,0 +1,30 @@
+{
+  "ImpactReg": {
+    "icon_url": "https://raw.githubusercontent.com/vboussot/SlicerImpactReg/main/ImpactReg/Resources/Icons/ImpactReg.png",
+    "icon_path": "ImpactReg/Resources/Icons/ImpactReg.png"
+  },
+  "ImpactSynth": {
+    "icon_url": "https://raw.githubusercontent.com/vboussot/SlicerImpactSynth/main/ImpactSynth/Resources/Icons/ImpactSynth.png",
+    "icon_path": "ImpactSynth/Resources/Icons/ImpactSynth.png"
+  },
+  "KonfAI": {
+    "icon_url": "https://raw.githubusercontent.com/vboussot/SlicerKonfAI/main/KonfAI/Resources/Icons/KonfAI.png",
+    "icon_path": "KonfAI/Resources/Icons/KonfAI.png"
+  },
+  "RadReirradiation": {
+    "icon_url": "https://raw.githubusercontent.com/LuisParedesOcampo/SlicerRadReirradiation/main/Resources/Icons/RadReirradiation.png",
+    "icon_path": "Resources/Icons/RadReirradiation.png"
+  },
+  "SEEGContactDetector": {
+    "icon_url": "https://raw.githubusercontent.com/EpiReC-ISARG/SlicerSEEGContactDetector/main/SEEGContactDetector/Resources/Icons/SEEGContactDetector.png",
+    "icon_path": "SEEGContactDetector/Resources/Icons/SEEGContactDetector.png"
+  },
+  "SimVascular": {
+    "icon_url": "https://raw.githubusercontent.com/SimVascular/SlicerSimVascular/main/SimVascular.png",
+    "icon_path": "SimVascular.png"
+  },
+  "VoxTell": {
+    "icon_url": "https://raw.githubusercontent.com/lassoan/SlicerVoxTell/main/VoxTell/Resources/Icons/VoxTell.png",
+    "icon_path": "VoxTell/Resources/Icons/VoxTell.png"
+  }
+}
